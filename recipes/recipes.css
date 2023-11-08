@@ -78,15 +78,3 @@ ol {
     margin: 15px;
     padding: 20px;
 }
-
-ul {
-    margin: 15px;
-    display: flex;
-}
-
-li {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-}
