@@ -6,6 +6,12 @@
     align-items: center;
 }
 
+.Container {
+    width: 90%;
+    min-width:  500px;
+    margin: auto;
+}
+
 h1 {
     color: rgb(6, 5, 5);
     font-size: 115px;
