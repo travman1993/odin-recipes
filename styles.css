@@ -1,13 +1,18 @@
 /* styles.css */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 html {
-    width: 100% vw;
+    width: 100% ;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: beige;
     border: 62px ridge lightcoral;
-    width: 100%;
+    width: 100% vw;
     display: flex;
     flex-direction: column;
 }
@@ -30,7 +35,7 @@ a {
     font-family: "Snell Round", cursive
 }
 
-ul li {
+ul {
     color:black;
     text-align: center;
     font-size: 65px;
@@ -42,10 +47,10 @@ ul li {
 
 img {
     height: auto;
-    width: 650px;
+    width: 350px;
     align-content: center;
     border: 65px double #a4d1d59d;
-    margin-left: 21%;
+    width: 100% vw;
 }
 
 p {
@@ -54,4 +59,10 @@ p {
     font-style: "Times New Roman";
     text-align: center;
     margin: 35px;
+}
+li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
